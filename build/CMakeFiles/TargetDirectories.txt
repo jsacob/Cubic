@@ -1,0 +1,3 @@
+/Users/jacob/LearningGLFW/build/CMakeFiles/app.dir
+/Users/jacob/LearningGLFW/build/CMakeFiles/edit_cache.dir
+/Users/jacob/LearningGLFW/build/CMakeFiles/rebuild_cache.dir

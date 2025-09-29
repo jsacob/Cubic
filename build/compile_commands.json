@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/jacob/LearningGLFW/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/opt/glfw/include -std=gnu++17 -o CMakeFiles/app.dir/main.cpp.o -c /Users/jacob/LearningGLFW/main.cpp",
+  "file": "/Users/jacob/LearningGLFW/main.cpp",
+  "output": "CMakeFiles/app.dir/main.cpp.o"
+}
+]
