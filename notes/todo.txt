@@ -1,0 +1,14 @@
+what to search tomorrow:
+
+OpenGL Core Profile VAO VBO explained
+OpenGL 3.3 shader setup macOS
+OpenGL GLSL vertex fragment shader tutorial
+OpenGL minimal triangle Core Profile
+
+AVOID anything using glBegin, glVertex3f, or no shaders.
+
+Understand VAO stores layout, VBO stores data, shaders process it.
+
+Also some key concepts picked up on- 
+
+VBO, VAO, transformation matrices, fragment shaders,
