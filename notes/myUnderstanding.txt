@@ -1,0 +1,2 @@
+VAO: Stores how the vertex data is used (name it something like VertexArrayID)
+VBO: Holds the actual vertex positions	(vertexBuffer)
