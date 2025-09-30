@@ -49,11 +49,11 @@ int main()
 	glEnableVertexAttribArray(0);    								// Vertex attributes are inputs to my vertex shader like - positions, colors, ect
 	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer); 					// It rebinds the same VBO to make sure the follow glEnableVertexAttribArray uses the correct buffer
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);  
+
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 	glDisableVertexAttribArray(0);
 
 	
-    GLuint core_program;
 	 
 
 

@@ -1,2 +1,38 @@
 VAO: Stores how the vertex data is used (name it something like VertexArrayID)
 VBO: Holds the actual vertex positions	(vertexBuffer)
+
+Shading pipelne consist of
+
+Vertices 
+   ↓
+Vertex Specification (VAOs/VBOs)
+   ↓
+Vertex Shader
+   ↓
+Tessellation Control Shader (optional)
+   ↓
+Tessellation Evaluation Shader (optional)
+   ↓
+Geometry Shader (optional)
+   ↓
+Rasterization (vertex to fragment)
+   ↓
+Fragment Shader
+   ↓
+Final Output (Framebuffer)
+
+
+Shader Pipeline Stage
+
+- Allocate a program handle (the handle is just an identifier for the program )
+- Allocate a shader handle
+- Load GLSL shader source from a text file
+- Load shader source into the shader handle
+- Complile the shader
+- Attach the shader to the program (we redo this process for every shader we plan to include)
+- Link the program
+- Enable the program in the pipeline
+
+
+
+
